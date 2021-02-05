@@ -1,0 +1,16 @@
+{
+  "name": "webhooktracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "Atsushi❞#5239",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "express": "^4.17.1"
+  }
+}
