@@ -2,7 +2,11 @@ const Discord = require("discord.js");
 const {
     response
 } = require("express");
-const webhookClient = new Discord.WebhookClient("Id do seu webhook", "Token do seu webhook");
+const {
+    config
+} = require("./config.js")
+
+const webhookClient = new Discord.WebhookClient(config.webhookId, config.webhookToken);
 const express = require("express");
 const app = express();
 
